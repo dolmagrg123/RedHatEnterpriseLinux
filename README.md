@@ -18,3 +18,11 @@ Open source has many benefits for the user:
 • Control: See what the code does and change it to make it better.
 • Training: Learn from real-world code and develop more effective applications.
 • Security: Inspect sensitive code, fix with or without the original developers' help
+
+## Command Line/ Bash Shell
+
+A powerful way to control your environment.
+
+Bourne Shell ends with $
+Root user ends with #
+
