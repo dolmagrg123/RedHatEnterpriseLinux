@@ -34,8 +34,17 @@ Commands entered at the shell prompt have three basic parts:
 
 • Arguments, which are typically targets of the command
 
-Most commands follow a simple pattern of syntax:
+### Most commands follow a simple pattern of syntax:
 
 ```
 command [options…] [arguments…]
+```
+
+list of files inside a directory
+```
+ls
+```
+prints the working directory
+```
+pwd [OPTIONS]
 ```
