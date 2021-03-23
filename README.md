@@ -33,7 +33,6 @@ Commands entered at the shell prompt have three basic parts:
 
 Most commands follow a simple pattern of syntax:
 
-'''
+```
 command [options…] [arguments…]
-
-'''
+```
