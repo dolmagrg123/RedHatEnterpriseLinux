@@ -23,12 +23,15 @@ Open source has many benefits for the user:
 
 A powerful way to control your environment.
 
-Bourne Shell ends with $
-Root user ends with #
+* Bourne Shell ends with $
+* Root user ends with #
 
 Commands entered at the shell prompt have three basic parts:
+
 • Command to run
+
 • Options to adjust the behavior of the command
+
 • Arguments, which are typically targets of the command
 
 Most commands follow a simple pattern of syntax:
