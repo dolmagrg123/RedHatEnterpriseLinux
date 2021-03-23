@@ -40,11 +40,26 @@ Commands entered at the shell prompt have three basic parts:
 command [options…] [arguments…]
 ```
 
-list of files inside a directory
+##### Examples of basic commands
+
+List of files inside a directory
+
 ```
-ls
+ls [options…] [arguments…]
 ```
-prints the working directory
+
+Prints the working directory
+
 ```
 pwd [OPTIONS]
 ```
+
+change directory
+
+``` 
+cd 
+```
+
+
+
+
