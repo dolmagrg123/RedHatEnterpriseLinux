@@ -26,8 +26,23 @@ ls -l
 The first character of this output indicates the type of a file. After the file type character, the permissions are displayed.
 
 ```
-- **rw-r--r-- 1** sysadmin sysadmin 647 Dec 20  2017 hello.sh
+- rw-r--r-- 1 sysadmin sysadmin 647 Dec 20  2017 hello.sh
 ```
+* The first set is for the user who owns the file.
+* The second set is for the group that owns the file.
+* The last set is for everyone else, any one who that first two sets of permissions do not apply to.
 
 
+## Permission Types
 
+read (r): Allows for file contents to be read or copied.
+write (w): Allows for contents to be modified or overwritten. Allows for files to be added or removed from a directory.
+execute (x): Allows for a file to be run as a process, although script files require read permission, as well.
+
+## Changing File Permissions
+
+Used to change the permissions of a file or directory. Only the root user or the user who owns the file is able to change the permissions of a file.
+
+```
+chmod
+```
