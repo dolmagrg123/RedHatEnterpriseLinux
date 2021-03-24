@@ -57,8 +57,8 @@ a	   | All: Refers to the user, group and others.
 
 * ACTION: 
 
-Symbol|	Meaning
---- | ---
-+	    | Add the permission, if necessary
-=	    | Specify the exact permission
--	    | Remove the permission, if necessary
+Number  | Symbol|	Meaning
+--- | --- | ---
+1   | +	    | Add the permission, if necessary
+2   | =	    | Specify the exact permission
+3   | -	    | Remove the permission, if necessary
