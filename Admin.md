@@ -44,5 +44,15 @@ The first character of this output indicates the type of a file. After the file 
 Used to change the permissions of a file or directory. Only the root user or the user who owns the file is able to change the permissions of a file.
 
 ```
-chmod
+chmod [<SET><ACTION><PERMISSIONS>]... FILE
 ```
+SET: which set of permissions is being changed
+
+Symbol|	Meaning
+--- | ---
+u	   | User: The user who owns the file.
+g	   | Group: The group who owns the file.
+o	   | Others: Anyone other than the user owner or member of the group owner.
+a	   | All: Refers to the user, group and others.
+
+ACTION: 
