@@ -62,3 +62,11 @@ a	   | All: Refers to the user, group and others.
 | \+	    | Add the permission, if necessary|
 | =	    | Specify the exact permission|
 | \-	    | Remove the permission, if necessary|
+
+* PERMISSIONS
+
+| Symbol|	Meaning|
+| --- | ---|
+| r	| read|
+| w	| write|
+| x	| execute|
