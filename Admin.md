@@ -59,6 +59,6 @@ a	   | All: Refers to the user, group and others.
 
 Symbol|	Meaning
 --- | ---
-+	|Add the permission, if necessary
-=	|Specify the exact permission
--	|Remove the permission, if necessary
++	| Add the permission, if necessary
+=	| Specify the exact permission
+-	| Remove the permission, if necessary
